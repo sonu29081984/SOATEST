@@ -77,6 +77,7 @@
     </assign>
     <empty name="Empty1"/>
     <empty name="Empty2"/>
+    <empty name="Empty3"/>
     <!-- Generate reply to synchronous request -->
     <reply name="replyOutput" partnerLink="additionbpelprocess_client" portType="client:AdditionBPELProcess" operation="process" variable="outputVariable"/>
   </sequence>

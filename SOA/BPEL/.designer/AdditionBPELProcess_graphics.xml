@@ -4,9 +4,9 @@
    <annotationfile/>
    <iconize/>
    <partnerlink_locations>
-      <partnerlink name="additionbpelprocess_client" x="0" y="189" side="left"/>
+      <partnerlink name="additionbpelprocess_client" x="0" y="336" side="left"/>
    </partnerlink_locations>
-   <graph_layout viewport="0,0,1157,778" show_swimlanes="true">
+   <graph_layout viewport="0,0,1183,778" show_swimlanes="true">
       <layout_item collapsed="false" xpath="/process" type="process" showhandlers="true"/>
       <layout_item collapsed="false" xpath="/process/sequence" type="sequence"/>
    </graph_layout>

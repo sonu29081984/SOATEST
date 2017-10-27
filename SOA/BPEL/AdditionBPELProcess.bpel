@@ -71,10 +71,11 @@
     <receive name="receiveInput" partnerLink="additionbpelprocess_client" portType="client:AdditionBPELProcess" operation="process" variable="inputVariable" createInstance="yes"/>
     <assign name="Assign1">
       <copy>
-        <from>$inputVariable.payload/client:input + 1</from>
+        <from>$inputVariable.payload/client:input + 2</from>
         <to>$outputVariable.payload/client:result</to>
       </copy>
     </assign>
+    <empty name="Empty1"/>
     <!-- Generate reply to synchronous request -->
     <reply name="replyOutput" partnerLink="additionbpelprocess_client" portType="client:AdditionBPELProcess" operation="process" variable="outputVariable"/>
   </sequence>
